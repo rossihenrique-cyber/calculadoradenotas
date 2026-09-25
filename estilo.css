@@ -1,0 +1,70 @@
+/* Formatação geral da página */
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+
+/* Caixa principal da aplicação */
+main {
+    background-color: white;
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+
+/* Título principal */
+h1 {
+    color: #1d4e89;
+    text-align: center;
+}
+
+
+/* Textos dos campos */
+label {
+    font-weight: bold;
+}
+
+
+/* Campos utilizados para digitar as notas */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+/* Botão para calcular a média */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1d4e89;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Alteração da cor quando o mouse passa sobre o botão */
+button:hover {
+    background-color: #163a66;
+}
+
+
+/* Área onde será mostrado o resultado */
+#resultado {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #e8f1fa;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
